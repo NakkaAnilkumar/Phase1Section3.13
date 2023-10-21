@@ -12,6 +12,7 @@ namespace Phase1Section3._13
         static void Main(string[] args)
         {
             doApp();
+            Console.ReadLine();
         }
 
         public static void doApp()
@@ -44,7 +45,7 @@ namespace Phase1Section3._13
 
             File.Delete(filename);
             Console.WriteLine(filename + " was deleted");
-            Console.ReadLine();
+            
         }
 
     }
